@@ -63,7 +63,7 @@
     /* centers text */
     background: #ddd;
     /* grey background */
-    position: fixed;
+    position: sticky;
     left: 0;
     bottom: 0;
     width: 100%;
