@@ -10,8 +10,10 @@
 }
 
 /* Increase the font size of the <h1> element */
-.header h1 {
+.header a {
     font-size: 40px;
+    color: black;
+    text-decoration: none;
 }
 
 .navbar {
@@ -52,10 +54,13 @@
     text-align: left;
 }
 
-.title a1 {
+.title h3 {
     float: center;
-    text-align: left;
+    text-align: center;
+    color: black;
+    text-decoration: none;
 }
+
 
 
 

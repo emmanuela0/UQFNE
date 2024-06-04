@@ -1,36 +1,53 @@
 .header {
-    padding: 10px; /* some padding */
-    text-align: center; /* center the text */
-    background: #066587; /* blue background */
-    color: black; /* black text color */
-  }
-  
-  /* Increase the font size of the <h1> element */
-  .header h1 {
-    font-size: 40px;
-  }
+  padding: 10px;
+  /* some padding */
+  text-align: center;
+  /* center the text */
+  background: #066587;
+  /* blue background */
+  color: black;
+  /* black text color */
+}
+
+/* Increase the font size of the <h1> element */
+.header a {
+  font-size: 40px;
+  color: black;
+  text-decoration: none;
+}
 
 .navbar {
-  overflow: hidden; /* hide overflow */
-  background-color: rgb(131, 128, 128); /* dark background color*/
+  overflow: hidden;
+  /* hide overflow */
+  background-color: rgb(131, 128, 128);
+  /* dark background color*/
 }
 
 .navbar a {
-  float: left; /* links stay side-by-side*/
-  display: block; /* change display to block */
-  color: antiquewhite; /* text color */
-  text-align: center; /* center the text */
-  padding: 10px 20px; /* adds some padding */
-  text-decoration: none; /* remove underline */
+  float: left;
+  /* links stay side-by-side*/
+  display: block;
+  /* change display to block */
+  color: antiquewhite;
+  /* text color */
+  text-align: center;
+  /* center the text */
+  padding: 10px 20px;
+  /* adds some padding */
+  text-decoration: none;
+  /* remove underline */
 }
 
 .navbar a.right {
-  float: right; /* floats the link to the right */
+  float: right;
+  /* floats the link to the right */
 }
 
 .navbar a:hover {
-  background-color: #ddd; /* grey */
-  color: black; /* black */
+  background-color: #ddd;
+  /* grey */
+  color: black;
+  /* black */
 }
 
 .webtext {
@@ -38,7 +55,10 @@
 }
 
 .footer {
-  padding: 10px; /* adds padding */
-  text-align: center; /* centers text */
-  background: #ddd; /* grey background */
+  padding: 10px;
+  /* adds padding */
+  text-align: center;
+  /* centers text */
+  background: #ddd;
+  /* grey background */
 }
